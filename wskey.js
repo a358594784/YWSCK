@@ -39,7 +39,7 @@ hostname =api.m.jd.com
 
 获取明文CK配合快捷指令使用更加方便
 
-https://www.icloud.com/shortcuts/0b81179e54704af1aa42c83afbe92569
+https://www.icloud.com/shortcuts/e7dcb372b29f492082f811730169d19f
 
 如果成功获取过CK，添加快捷指令运行即可直接获取CK！
 
