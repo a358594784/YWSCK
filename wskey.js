@@ -6,11 +6,11 @@
 
 
 [task_local]
-0 0 1 1 * wskey.js, tag=提交wskey, enabled=true
+0 0 1 1 * https://ghproxy.com/https://raw.githubusercontent.com/a358594784/YWSCK/main/wskey.js, tag=获取wskey, enabled=true
 
 
  
-https://api.m.jd.com/client.action?functionId=genToken url script-response-header Update-Ck.js
+https://api.m.jd.com/client.action(.*)functionId=genToken url script-request-header https://ghproxy.com/https://raw.githubusercontent.com/a358594784/YWSCK/main/wskey.js
 
 
 hostname =api.m.jd.com
